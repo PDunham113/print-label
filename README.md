@@ -14,5 +14,5 @@ Dialects:
 -   ZPL
 
 Print Methods:
+-   File
 -   Network
--   String
