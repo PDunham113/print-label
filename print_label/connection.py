@@ -54,5 +54,7 @@ class Connection(ABC):
 
         Must be defined by child class - the definition should check
         `self._is_connected` upon entry.
+
+        @param bytes A bytes-like iterable to send over open connection
         """
         raise NotImplementedError('Cannot send bytes w/o definition.')
